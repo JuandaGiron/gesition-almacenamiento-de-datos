@@ -40,10 +40,9 @@ def draw_charts(df):
         st.pyplot(fig1)
 
         # Gráfico de supervivencia por género
-        st.subheader('Frecuencia de delitos por mes')
-        fig2 = px.histogram(df, x='Mes', color= 'Estrato', barmode='group',
-                             title='Supervivencia por Género')
-        st.plotly_chart(fig2)
+        st.subheader('Frecuencia de delitos por Comuna y Mes')
+        grafico1 = px.histogram(df, y="Comuna1", color="Mes", barmode='group')
+        grafico1.update_layout(height=800, width=800)
 
         # Gráfico de sobrevivientes por clase
         st.subheader('Sobrevivientes por Clase')
