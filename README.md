@@ -109,5 +109,7 @@ Ahora bien, la utltima parte coprresponde al despliegue, para esto, fue empleada
 ![image](https://github.com/user-attachments/assets/a193feb5-dedc-4ddd-b617-f600ebf33042)
 
 
+Valor agregado
 
+El presente análisis revela diversos insights significativos. En primer lugar, se presenta una base de datos depurada y lista para realizar análisis más detallados. Los gráficos generados durante el análisis exploratorio permiten identificar las comunas y barrios con mayor tasa de delitos, lo cual es un hallazgo crucial para las autoridades, ya que posibilita implementar campañas de seguridad, aumentar la vigilancia en estas áreas y llevar a cabo campañas de concientización para los habitantes. Además, se han identificado las horas con mayor incidencia delictiva, lo que proporciona información valiosa para alertar a la comunidad sobre los momentos del día en los que pueden estar en mayor riesgo. En conclusión, estos hallazgos no solo fortalecen la capacidad de respuesta ante la criminalidad, sino que también fomentan una colaboración más efectiva entre las autoridades y la comunidad para mejorar la seguridad urbana.
 
