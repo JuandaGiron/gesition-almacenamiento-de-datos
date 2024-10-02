@@ -41,7 +41,7 @@ def draw_charts(df1_1):
 
         # Frecuencia de delitos en comunas por mes
         st.subheader('Frecuencia de delitos por Comuna y Mes')
-        grafico1 = px.histogram(df1_1, y="Comuna1", color="Mes", barmode='group')
+        grafico1 = px.hist(df1_1, y="Comuna1", color="Mes", barmode='group')
         grafico1.update_layout(height=800, width=800)
 
         df_grouped = df1_1.groupby('hora_r').size().reset_index(name='count')
