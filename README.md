@@ -38,3 +38,7 @@ Hora_r = Hora redondeada para establecer intervalos de tiempo (entero)
 
 En primer lugar, se presenta una visualización de la data, a fin de comprender con mayor detalle la definición de las variables.
 
+
+![image](https://github.com/user-attachments/assets/7a06e38f-ccf5-4d33-b958-53b6a5d745db)
+
+
