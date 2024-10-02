@@ -9,16 +9,29 @@ Analizar un conjunto de datos recopilados por la Secretaría de Seguridad de Cal
 Para llevar a cabo el analisis se cuenta con un data de 8640 registros y 14 caracteristicas, la descripción de cada una de las variables se presenta a continuación:
 
 ID= número consecutivo para llevar a cabo un control de los registros (entero)
+
 Lugar= Espacio donde se llevo a cabo el delito, puede ser un espacio publico, domicilio, etc. (categórico)
+
 Etapa= Describe si el delito se encuentra en algun tipo de proceso investigativo o judicial (categórico)
+
 Mes= Mes en que ocurrió el delito (categórico)
+
 Fecha= Fecha en la que se registro el delito año/mes/dia (date)
+
 Dia= Dí de la semana que se presenta el delito (categórico)
+
 Hora= Hora del día que se registro el hecho (time)
+
 Usuario= Identificador de usuario sufrió el delito (categórico)
+
 ID_barrio= Identificador númerico del barrio donde ocurrio el delito (entero)
+
 Barrio1= Nombre del barrio donde se registro el crimen (caregórico)
+
 Comuna= Número de la comuna donde se registro el delito (entero)
+
 Estrato= Estrato socioeconomico del lugar donde se llevo a cabo el delito (entero)
+
 Hora1= Hora del dia que se registro el hecho (time)
+
 Hora_r = Hora redondeada para establecer intervalos de tiempo (entero)
