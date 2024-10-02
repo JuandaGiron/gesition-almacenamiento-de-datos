@@ -2,6 +2,8 @@
 Integrantes:
 Alejandro Solano - Juan David Girón
 
+El presente repositorio tiene como objetivo analizar un conjunto de datos sobre los delitos ocurridos en la ciudad de Cali, Colombia. El dataset se denomina "delitos". Para llevar a cabo este análisis, se realizó un proceso de ETL en el que se eliminaron variables irrelevantes, registros vacíos y caracteres especiales. El código correspondiente a este proceso se denomina "Limpieza_Girón y Solano". Con los datos ya depurados, se exportó un archivo CSV llamado "delitos_clean". Adicionalmente, se presenta un código que conecta MySQL con Python para crear una base de datos con la información limpia; este archivo se titula "SQL". Finalmente, se incluye el archivo "app" para el despliegue de los resultados en un servidor local mediante Streamlit.
+
 Problematica
 
 Analizar un conjunto de datos recopilados por la Secretaría de Seguridad de Cali durante 2020, el cual se centra en la criminalidad y la seguridad urbana en la ciudad. Este conjunto de datos no solo permite monitorear y analizar delitos en distintas comunas y barrios de la ciudad, sino que también puede integrarse con otras bases de datos relevantes, como registros policiales y datos sociodemográficos. Esto facilitaría la identificación de patrones y tendencias delictivas, así como la determinación de las zonas y momentos del día más propensos a la ocurrencia de crímenes. Al entender mejor la naturaleza de estos delitos, las autoridades pueden optimizar la asignación de recursos, diseñar estrategias de prevención más efectivas y enfocar los esfuerzos de seguridad, mejorando así la respuesta ante la criminalidad en Cali y por tanto disminuir la tasa de crimenes en la ciudad.
