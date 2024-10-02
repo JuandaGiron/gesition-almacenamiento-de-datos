@@ -93,10 +93,8 @@ Una vez completado el análisis exploratorio, se procedió a exportar la base de
 Posteriormente, se realizaron algunas consultas para probar las funcionalidades de la herramienta. Sin embargo, es importante destacar que estos registros son únicamente con fines de prueba y no representan información verídica. En primer lugar, se agregó un registro al final de la base de datos; cabe recordar que inicialmente contábamos con 8.640 registros, por lo que el registro 8.641 representa el nuevo ingreso. El resultado de la consulta se muestra en la siguiente imagen.
 
 ![Consulta1](https://github.com/user-attachments/assets/029656a7-cc78-426c-a083-760ca08fec1f)
-
 Asimismo, fue realiza una consulta donde fueron agregados cinco registros con información aleatoria; despues fue empleado el metodo "DELETE" y "WHERE" para eliminar el ultimo registro, correspondiente al 8.645. El resultado se muestra en la imagen
 
 ![Consulta2](https://github.com/user-attachments/assets/14823754-0c88-46f0-b73f-9dd14301752f)
-
 La utlima consulta, correspondió a cambiar un campo especifico dentro de un registro, para esto fue empleado el metodo "SET" y "WHERE"
 
