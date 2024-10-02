@@ -39,7 +39,7 @@ def draw_charts(df1_1):
         ax1.set_ylabel('Frecuencia')
         st.pyplot(fig1)
 
-        # Gráfico de supervivencia por género
+        # Frecuencia de delitos en comunas por mes
         st.subheader('Frecuencia de delitos por Comuna y Mes')
         grafico1 = px.histogram(df1_1, y="Comuna1", color="Mes", barmode='group')
         grafico1.update_layout(height=800, width=800)
