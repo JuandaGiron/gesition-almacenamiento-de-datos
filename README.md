@@ -98,7 +98,9 @@ Posteriormente, se realizaron algunas consultas para probar las funcionalidades 
 Asimismo, fue realiza una consulta donde fueron agregados cinco registros con información aleatoria; despues fue empleado el metodo "DELETE" y "WHERE" para eliminar el ultimo registro, correspondiente al 8.645. El resultado se muestra en la imagen
 
 ![Consulta2](https://github.com/user-attachments/assets/14823754-0c88-46f0-b73f-9dd14301752f)
-La utlima consulta, correspondió a cambiar un campo especifico dentro de un registro, para esto fue empleado el metodo "SET" y "WHERE"
+La utlima consulta, correspondió a cambiar un campo especifico dentro de un registro, para esto fue empleado el metodo "SET" y "WHERE" esto con el objetivo de cambiar el mes en el primer registro
+
+![Consulta 3](https://github.com/user-attachments/assets/03a7f5a6-029a-42f3-aeac-bb72a93e1661)
 
 Ahora bien, la utltima parte coprresponde al despliegue, para esto, fue empleada la biblioteca streamlit, que permite crear visualizaciones interactivas, para esto, se creó una cuenta en Gitgub y se subio la información al presente repositorio. El mdespliegue se obtiene en un local host. Los resultados del despliegue se exponen por medio de las siguientes imagenes:
 
