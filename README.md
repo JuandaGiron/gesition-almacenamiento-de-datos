@@ -69,20 +69,34 @@ Asimismo, se presenta la frecuencia de delitos en función de los barrios de las
 Las gráficas presentan la cantidad de hurtos cometidos en diferentes barrios dentro de las comunas 2, 3, 17 y 19 donde se puede apreciar lo siguiente:
 
 - **Comuna 2**: 
-   En esta comuna, los barrios con mayor cantidad de hurtos son Prados del Norte, San Vicente y Santa Mónica, cada uno registrando más de 100 hurtos. Otros barrios como La Flora, Versalles y Vípasa también muestran una actividad delictiva relevante, aunque menor.
+En esta comuna, los barrios con mayor cantidad de hurtos son Prados del Norte, San Vicente y Santa Mónica, cada uno registrando más de 100 hurtos. Otros barrios como La Flora, Versalles y Vípasa también muestran una actividad delictiva relevante, aunque menor.
 
 - **Comuna 3**: 
    El barrio con mayor cantidad de hurtos es San Pedro, superando ampliamente a otros barrios. El Nacional muestra el nivel más bajo de delitos.
 
 - **Comuna 17**: 
-    En esta comuna, los hurtos están más concentrados en Lili. También destacan barrios como Urbanización San Joaquín y el ingenio,, aunque en menor medida.
+  En esta comuna, los hurtos están más concentrados en Lili. También destacan barrios como Urbanización San Joaquín y el ingenio,, aunque en menor medida.
 
 - **Comuna 19**: 
-   San Fernando Viejo y San Fernando Nuevo son los barrios con más hurtos reportados, ambos superando los 100 casos. Otros barrios como Urbanización Tequendama, El Cedro y El Lido también muestran una considerable actividad delictiva.
+San Fernando Viejo y San Fernando Nuevo son los barrios con más hurtos reportados, ambos superando los 100 casos. Otros barrios como Urbanización Tequendama, El Cedro y El Lido también muestran una considerable actividad delictiva.
 
 por utlimo, con referencia al analisis exploratorio, se presneta un mapa de la ciudad y se marcan aquellas comunas que tienen mayor cantidad de delitos, esto permite brindar una idea sobre aquellas zonas geograficas que se pueden indetificar como "zonas rojas"
 
   ![image](https://github.com/user-attachments/assets/2516d450-fcc4-4054-b98b-06b4a89c7419)
 
-  El mapa muestra la distribución de las comunas de Cali, utilizando un esquema de colores que indica la incidencia de hurtos: los tonos oscuros representan mayor frecuencia, mientras que los claros indican menos casos. Las comunas más afectadas por hurtos son la 19, 17, 2 y 3, con la comuna 19 registrando el mayor número de incidentes, posiblemente debido a su alta urbanización y actividad económica. En contraste, las comunas 1, 20 y 22 muestran una menor incidencia de hurtos. Las comunas 1 y 20, de estratos socioeconómicos más bajos, pueden experimentar otros tipos de delitos, mientras que la comuna 22, una zona exclusiva habitada por personas de alto poder adquisitivo, presenta una baja incidencia de hurtos.
+El mapa muestra la distribución de las comunas de Cali, utilizando un esquema de colores que indica la incidencia de hurtos: los tonos oscuros representan mayor frecuencia, mientras que los claros indican menos casos. Las comunas más afectadas por hurtos son la 19, 17, 2 y 3, con la comuna 19 registrando el mayor número de incidentes, posiblemente debido a su alta urbanización y actividad económica. En contraste, las comunas 1, 20 y 22 muestran una menor incidencia de hurtos. Las comunas 1 y 20, de estratos socioeconómicos más bajos, pueden experimentar otros tipos de delitos, mientras que la comuna 22, una zona exclusiva habitada por personas de alto poder adquisitivo, presenta una baja incidencia de hurtos.
+
+Una vez completado el análisis exploratorio, se procedió a exportar la base de datos limpia y se creó la correspondiente en MySQL. Este paso es fundamental, ya que permite realizar consultas de manera efectiva, garantizando la integridad, accesibilidad y eficiencia en la gestión de la información, además de facilitar el manejo de grandes volúmenes de datos. Para llevar a cabo este proceso, se estableció la conexión a SQL desde Python y se creó la tabla con las características correspondientes. El resultado se presenta en la siguiente imagen:
+
+![base de datos  SQL](https://github.com/user-attachments/assets/e8c9fd58-58e7-4147-9024-e8d072e4021f)
+
+Posteriormente, se realizaron algunas consultas para probar las funcionalidades de la herramienta. Sin embargo, es importante destacar que estos registros son únicamente con fines de prueba y no representan información verídica. En primer lugar, se agregó un registro al final de la base de datos; cabe recordar que inicialmente contábamos con 8.640 registros, por lo que el registro 8.641 representa el nuevo ingreso. El resultado de la consulta se muestra en la siguiente imagen.
+
+![Consulta1](https://github.com/user-attachments/assets/029656a7-cc78-426c-a083-760ca08fec1f)
+
+Asimismo, fue realiza una consulta donde fueron agregados cinco registros con información aleatoria; despues fue empleado el metodo "DELETE" y "WHERE" para eliminar el ultimo registro, correspondiente al 8.645. El resultado se muestra en la imagen
+
+![Consulta2](https://github.com/user-attachments/assets/14823754-0c88-46f0-b73f-9dd14301752f)
+
+La utlima consulta, correspondió a cambiar un campo especifico dentro de un registro, para esto fue empleado el metodo "SET" y "WHERE"
 
