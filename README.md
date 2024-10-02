@@ -39,6 +39,18 @@ Hora_r = Hora redondeada para establecer intervalos de tiempo (entero)
 En primer lugar, se presenta una visualización de la data, a fin de comprender con mayor detalle la definición de las variables.
 
 
+Ahora bien, se presentan algunas gráficas desarrolladas en el análisis exploratorio de datos, esto permite obtener una mayor comprensión de los datos y su importancia para el analisis de delitos en la ciudad de cali; en primer lugar se presenta un gráfico de barras que relaciona la frecuencia de delitos en cada comuna de la ciudad en función de los meses
+
 ![image](https://github.com/user-attachments/assets/7a06e38f-ccf5-4d33-b958-53b6a5d745db)
+
+Según el gráfico, se puede concluir que enero es el mes con la mayor cantidad de delitos en todas las comunas de la ciudad, seguido de febrero. Además, se observa una tendencia decreciente a medida que avanzan los meses, lo que indica que al inicio del año el índice de delitos es elevado y disminuye en comparación con el mes anterior.
+
+Por otra parte, se presenta la frecuencia absoluta de los delitos por cada mes, este gráfico permite brindar un panorama general del comportamiento de los datos en fucnión del tiempo
+
+![image](https://github.com/user-attachments/assets/3692ec68-a669-47f5-9b2a-d5a2cf22afca)
+
+El gráfico respalda lo mencionado anteriormente, evidenciando que enero es el mes con mayor frecuencia de delitos, y que estos tienden a disminuir con el tiempo. Esta alta incidencia en enero podría estar relacionada con dinámicas estacionales, como el incremento del flujo de personas y de dinero durante las festividades y vacaciones, lo que crea un entorno propicio para la ocurrencia de delitos.
+
+![image](https://github.com/user-attachments/assets/61351cb5-c081-4c3e-8a46-da94c7c25323)
 
 
