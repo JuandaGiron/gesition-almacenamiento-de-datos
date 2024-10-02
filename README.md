@@ -98,3 +98,4 @@ Asimismo, fue realiza una consulta donde fueron agregados cinco registros con in
 ![Consulta2](https://github.com/user-attachments/assets/14823754-0c88-46f0-b73f-9dd14301752f)
 La utlima consulta, correspondió a cambiar un campo especifico dentro de un registro, para esto fue empleado el metodo "SET" y "WHERE"
 
+Ahora bien, la utltima parte coprresponde al despliegue
