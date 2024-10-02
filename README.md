@@ -35,3 +35,6 @@ Estrato= Estrato socioeconomico del lugar donde se llevo a cabo el delito (enter
 Hora1= Hora del dia que se registro el hecho (time)
 
 Hora_r = Hora redondeada para establecer intervalos de tiempo (entero)
+
+En primer lugar, se presenta una visualización de la data, a fin de comprender con mayor detalle la definición de las variables.
+
