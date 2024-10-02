@@ -98,4 +98,16 @@ Asimismo, fue realiza una consulta donde fueron agregados cinco registros con in
 ![Consulta2](https://github.com/user-attachments/assets/14823754-0c88-46f0-b73f-9dd14301752f)
 La utlima consulta, correspondió a cambiar un campo especifico dentro de un registro, para esto fue empleado el metodo "SET" y "WHERE"
 
-Ahora bien, la utltima parte coprresponde al despliegue
+Ahora bien, la utltima parte coprresponde al despliegue, para esto, fue empleada la biblioteca streamlit, que permite crear visualizaciones interactivas, para esto, se creó una cuenta en Gitgub y se subio la información al presente repositorio. El mdespliegue se obtiene en un local host. Los resultados del despliegue se exponen por medio de las siguientes imagenes:
+
+![image](https://github.com/user-attachments/assets/37a66462-86c9-4574-99c0-9886c9d922c0)
+
+![image](https://github.com/user-attachments/assets/881f8597-b31f-46f0-bd77-7f1b418a15ee)
+
+![image](https://github.com/user-attachments/assets/748af7ae-a9c4-40c6-8b3b-0443424d2482)
+
+![image](https://github.com/user-attachments/assets/a193feb5-dedc-4ddd-b617-f600ebf33042)
+
+
+
+
