@@ -26,14 +26,14 @@ table_placeholder = st.empty()
 chart_placeholder = st.empty()
 
 # Función para dibujar gráficos
-def draw_charts(df):
+def draw_charts(df1_1):
     chart_placeholder.empty()  # Limpiar el contenedor de gráficos
     
     # Gráfico de distribución de edades
     with chart_placeholder.container():
         st.subheader('Frecuencia de delitos por dia')
         fig1, ax1 = plt.subplots()
-        ax1.hist(df['Dia'].dropna(), bins=30, color='skyblue', edgecolor='black')
+        ax1.hist(df1_1['Dia'].dropna(), bins=30, color='skyblue', edgecolor='black')
         ax1.set_title('Días')
         ax1.set_xlabel('Días')
         ax1.set_ylabel('Frecuencia')
@@ -41,18 +41,25 @@ def draw_charts(df):
 
         # Gráfico de supervivencia por género
         st.subheader('Frecuencia de delitos por Comuna y Mes')
-        grafico1 = px.histogram(df, y="Comuna1", color="Mes", barmode='group')
+        grafico1 = px.histogram(df1_1, y="Comuna1", color="Mes", barmode='group')
         grafico1.update_layout(height=800, width=800)
+
+        df_grouped = df1_1.groupby('hora_r').size().reset_index(name='count')
+        st.subheader('Conteo de ocurrencias por hora')
+        grafico2 = px.bar(df_grouped, x='hora_r', y='count', title='Conteo por hora')
+        st.plotly_chart(grafico2)
+
+
 
         # Gráfico de sobrevivientes por clase
         st.subheader('Sobrevivientes por Clase')
-        fig3 = px.histogram(df, x='Mes', color='Estrato', barmode='group',
+        fig3 = px.histogram(df1_1, x='Mes', color='Estrato', barmode='group',
                              title='Sobrevivientes por Clase')
         st.plotly_chart(fig3)
 
         # Gráfico de supervivencia en función de la edad
         st.subheader('Supervivencia en función de la Edad')
-        fig4 = px.box(df, x='Mes', y='Estrato', title='Supervivencia en función de la Edad')
+        fig4 = px.box(df1_1, x='Mes', y='Estrato', title='Supervivencia en función de la Edad')
         st.plotly_chart(fig4)
 
 # Función para mostrar la tabla
